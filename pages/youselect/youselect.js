@@ -1,7 +1,9 @@
 
 Page({
   data: {},
-
+  submitSelect:function(r){
+    console.log(r)
+  },
   onLoad: function () {
 
 
