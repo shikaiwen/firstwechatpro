@@ -1,0 +1,25 @@
+<view class="">
+
+  <!-- <view>{{msg}}</view> -->
+<view>
+<view>お金:</view>
+  <input class="weui-input" auto-focus placeholder="数量" width="5"/>
+</view>
+
+<button type="primary" bindtap="mytab">add</button>
+<!-- <block wx:for="{{[1, 2, 3]}}">
+  <view> {{index}}: </view>
+  <view> {{item}} </view>
+</block> -->
+
+  <view class='box'>
+  <form bindsubmit='searchBox'>
+      <input type='text' class='userBox' name='username'></input>
+      <input type='text' class='pwdBox' name='pwd'></input>
+      <button class='login' form-type='submit'>登录</button>
+  </form>
+  <text>输入的内容:{{first}}</text>
+  <text>输入的内容2:{{second}}</text>
+</view>
+
+</view>
