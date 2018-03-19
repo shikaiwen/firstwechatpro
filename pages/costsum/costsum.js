@@ -15,7 +15,6 @@ Page({
   },
   onLoad: function () {
 
-
     wx.getUserInfo({
       success: function (res) {
         console.log(res);
