@@ -1,17 +1,39 @@
+  <view class="index">
 
-<form bindsubmit='submitSelect'>
-      
-<view class="weui-cells weui-cells_after-title">
-    <radio-group bindchange="radioChange">
-      <label class="weui-cell weui-check__label" wx:for="{{items}}" wx:key="{{item.value}}">
+    <view class="index-hd">
+     <!-- <image class="index-logo" src="resources/kind/logo.png"></image>  -->
+    <view class="index-desc">开发者可根据自身需求自定义组件样式，具体属性参数详见小程序开发文档。</view>
+    </view>
 
-        <view class="weui-cell__hd">
-          <radio value="{{item.value}}" name="contry" checked="{{item.checked}}"/>
-        </view>
-        <view class="weui-cell__bd">{{item.name}}</view>
-      </label>
-    </radio-group>
+
+  <view class='index-bd'>
+
+    <form bindsubmit='submitSelect'>
+          
+      <view class="weui-cells weui-cells_after-title">
+          <radio-group bindchange="radioChange">
+            <label class="weui-cell weui-check__label" wx:for="{{items}}" wx:key="{{item.value}}">
+
+              <view class="weui-cell__hd">
+                <radio value="{{item.value}}" name="contry" checked="{{item.checked}}"/>
+              </view>
+              <view class="weui-cell__bd">{{item.name}}</view>
+            </label>
+          </radio-group>
+      </view>
+          <button class='login' form-type='submit' disabled="{{submitBtnStatus}}">保存</button>
+
+           <button class='login' open-type='share' disabled="{{submitBtnStatus}}">转发</button>
+    </form>
+
+  </view>
 </view>
-      <input type='text' class='pwdBox' name='username'></input>
-      <button class='login' form-type='submit'>保存</button>
-  </form>
+
+
+
+
+
+
+
+
+

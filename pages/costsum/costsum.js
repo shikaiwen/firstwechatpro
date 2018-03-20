@@ -17,10 +17,12 @@ Page({
 
     wx.getUserInfo({
       success: function (res) {
-        console.log(res);
-        wx.navigateTo({
-          url: '../youselect/youselect'
-        })
+        // console.log(res);
+
+        // wx.navigateTo({
+        //   url: '../youselect/youselect'
+        // })
+
       },
       complete:function(res){
         console.log(res)
