@@ -1,0 +1,40 @@
+
+.myall{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-around; */
+  height: 100%;
+}
+
+.contitem{
+  /* background-color:#1AAD19; */
+  justify-content: center;
+  align-items: center;
+}
+
+.headerimgcnt{
+  /* height:300rpx; */
+  width: 100%;
+}
+
+.headerimgcnt image{
+  width: 100%;
+  display: inline-block;
+}
+
+.msglistblock{
+  margin:20rpx;
+}
+
+.kind-list-item{
+  padding:37rpx;
+  background-color:white;
+  margin:14rpx;
+  border-radius:20rpx;
+
+}
+
+.infotitle{
+  font-weight:bold;
+}

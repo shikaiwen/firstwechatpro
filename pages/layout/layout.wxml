@@ -1,0 +1,46 @@
+<import src="/pages/common/head.wxml" />
+<import src="/pages/common/foot.wxml" />
+
+<view class="myall container2">
+  <view class='contitem headerimgcnt'>
+
+      <swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{background}}" wx:key="*this">
+          <swiper-item>
+            <!-- <view class="swiper-item {{item}}"></view> -->
+            <image src='/image/home/{{item}}'></image>
+          </swiper-item>
+        </block>
+      </swiper>
+
+  </view>
+
+
+  <view style='margin-top:100rpx;width:96%;'>
+    <view>
+      <view class='infotitle'>最新通知</view>
+      <view class='msglistblock'>
+        <block wx:for-items="{{infoList}}" wx:key="{{item.id}}">
+          <view class='kind-list-item'>
+
+                <navigator url="/pages/infodetail/infodetail" class="navigator">
+                  <view class="navigator-text">{{item.title}}</view>
+                  <view class="navigator-arrow"></view>
+                </navigator>
+
+            <!-- <view id="{{item.id}}"  bindtap='showOrHide'></view> -->
+
+            <!-- <view class='textdetail' style="display:{{item.open?'block':'none'}};">
+              {{item.content}}
+            </view> -->
+
+          </view>
+        </block>
+      </view>
+    </view>
+  </view>
+  <template is="foot" />
+</view>
+
+

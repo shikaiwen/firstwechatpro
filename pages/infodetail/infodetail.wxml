@@ -1,0 +1,14 @@
+
+<view>
+  <view class='titlepart'>春の休み</view>
+  <view class='authorpart'>横川2018-03-20</view>
+  <hr/>
+  <view class='contpart'>
+  <p>
+<span style="margin-left:20rpx;">如果使用rpx</span>
+是不是就可以解决这个问题呢？笔者在开发过程中尝试使用rpx代替px，使用UI稿的原始尺寸还原UI，截止到目前体验非常好。rpx本身代表的是相对像素，所以不论多大尺寸的屏幕，<strong>rpx的UI占据的屏幕比例是绝对固定的</strong>，是等比缩放的。</p>
+
+</view>
+</view>
+
+

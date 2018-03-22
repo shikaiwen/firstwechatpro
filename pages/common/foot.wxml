@@ -1,0 +1,5 @@
+<template name="foot">
+    <view style="font-size:20rpx;text-align:center;color:#999;position:absolute;bottom:8rpx;">
+      株式会社一創
+    </view>
+</template>

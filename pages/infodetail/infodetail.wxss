@@ -1,0 +1,21 @@
+.titlepart{
+  display: flex;
+  justify-content: center;
+  height: 209rpx;
+  align-items: center;
+}
+.authorpart{
+  display:flex;
+  font-size:21rpx;
+  justify-content:flex-end;
+  align-items:flex-end;
+  padding-right:41rpx;
+}
+.contpart{
+  margin-top:45rpx;
+  width:90%;
+  margin:0rpx auto;
+  background-color:white;
+  padding:20rpx 20rpx;
+  border-radius:22rpx;
+}

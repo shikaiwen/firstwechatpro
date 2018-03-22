@@ -6,7 +6,6 @@
 
   <view class='index-bd'>
 
-
 <block wx:for-items="{{infoList}}" wx:key="{{item.id}}">
     <view class='kind-list-item'>
       
