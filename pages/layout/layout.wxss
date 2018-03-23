@@ -14,7 +14,7 @@
 }
 
 .headerimgcnt{
-  /* height:300rpx; */
+   height:37%; 
   width: 100%;
 }
 
@@ -23,9 +23,23 @@
   display: inline-block;
 }
 
+.headerimgcnt swiper{
+  height: 100%;
+}
+
+
+.infocnt{
+  margin-top:30rpx;
+  width:96%;
+}
+
+
+
+
 .msglistblock{
   margin:20rpx;
 }
+
 
 .kind-list-item{
   padding:37rpx;
@@ -37,4 +51,30 @@
 
 .infotitle{
   font-weight:bold;
+}
+
+.navigator{
+  display: flex;
+}
+.navigator-text{
+  flex: 1;
+}
+.navigator-arrow {
+  padding-right: 26rpx;
+  position: relative;
+}
+
+.navigator-arrow:after {
+  content: " ";
+  display: inline-block;
+  height: 18rpx;
+  width: 18rpx;
+  border-width: 2rpx 2rpx 0 0;
+  border-color: #888888;
+  border-style: solid;
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  position: absolute;
+  top: 50%;
+  margin-top: -8rpx;
+  right: 28rpx;
 }

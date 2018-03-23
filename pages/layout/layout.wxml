@@ -13,11 +13,10 @@
           </swiper-item>
         </block>
       </swiper>
-
   </view>
 
 
-  <view style='margin-top:100rpx;width:96%;'>
+  <view class='infocnt'>
     <view>
       <view class='infotitle'>最新通知</view>
       <view class='msglistblock'>

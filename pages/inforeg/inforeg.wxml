@@ -1,0 +1,24 @@
+<view class='allcnt'>
+  <view class='section1'>
+    <view class='maintitle'>ようこそ、日本へ</view>
+    
+  </view>
+
+  <view class='section2'>
+    <view class='subtitle'>個人情報登録</view>
+    <view class='lineitem'>
+      <view><input class="bottomline" auto-focus placeholder="名前"/></view>
+    </view>
+    <view class='lineitem'>
+      <view><input class="bottomline" auto-focus placeholder="電話番号"/></view>
+    </view>
+    <view class='lineitem'>
+      <view><input class="bottomline" auto-focus placeholder="住所"/></view>
+    </view>
+
+    <view class='lineitem btnline'>
+      <view><button type="primary">登録</button></view>
+    </view>
+    
+  </view>
+</view>

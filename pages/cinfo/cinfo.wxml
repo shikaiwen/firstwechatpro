@@ -1,0 +1,54 @@
+
+<view class="block1">
+
+    <view>
+      <image class='yicls' src='/image/yi.png'></image>
+    </view>
+    <view>
+      <image class="chuangcls" src='/image/chuang.png'></image>
+    </view>
+</view>
+<view class='imgcnt'>
+  <image class='imgcls' src='/image/hannko.jpg'></image>
+</view>
+  <view class='block2'>
+
+    <view class='line-item'>
+        <view class='line-item-sub1'>会社名</view>
+        <view class='line-item-sub2'>株式会社一創</view>
+    </view>
+    <view class='line-item'>
+        <view class='line-item-sub1'>設立日</view>
+        <view class='line-item-sub2'>2014年03月</view>
+    </view>
+    <view class='line-item'>
+        <view class='line-item-sub1'>
+          <view class='line-item-sub1-cnt'>所在地</view>
+        </view>
+        <view class='line-item-sub2'>東京都中央区銀座8丁目18番4号 THE FORME GINZA 7F</view>
+    </view>
+    <view class='line-item'>
+        <view class='line-item-sub1'>
+          <view class='line-item-sub1-cnt'>資本金</view>
+        </view>
+        <view class='line-item-sub2'>2500万円</view>
+    </view>
+    <view class='line-item'>
+        <view class='line-item-sub1'>
+          <view class='line-item-sub1-cnt'>代表取締役社長</view>
+        </view>
+        <view class='line-item-sub2'>劉　寧</view>
+    </view>
+    
+  </view>
+  <template is="foot" />
+
+
+
+
+
+
+
+
+
+

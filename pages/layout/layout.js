@@ -4,10 +4,10 @@ const app = getApp()
 
 Page({
   data: {
-    background: ['2.jpg','6.jpg', '5.jpg',  '3.jpg'],
+    background: ['6.jpg','2.jpg', '5.jpg',  '3.jpg'],
     indicatorDots: true,
     vertical: false,
-    autoplay: false,
+    autoplay: true,
     interval: 2000,
     duration: 500,
     infoList: [{
